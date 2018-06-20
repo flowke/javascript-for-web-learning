@@ -149,7 +149,6 @@ console.log(m1 instanceof Man, 'type');
 // Man.prototype.isPrototypeOf(m1)
 console.log(m1 instanceof Object, 'type');
 
-
 // Object.prototype.isPrototypeOf(testObj)
 // 可以通过此方式测试 一个对象是否存在另一个对象的原型链上
 // 例如: m1 能否通过原型链找到 Object.prototype
